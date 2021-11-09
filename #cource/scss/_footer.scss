@@ -1,0 +1,126 @@
+.footer {
+	padding: 0 0 42px 0;
+	background-color: #121212;
+
+	&__cobtainer {
+	}
+
+	&__body {
+		display: flex;
+	}
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+		&_full {
+			flex: 1 1 auto;
+		}
+		&_right {
+			display: flex;
+			flex-direction: column;
+		}
+		&:last-child {
+			align-self: flex-end;
+		}
+	}
+
+	&__list {
+		margin: 40px 0 50px 0;
+	}
+
+	&__block li {
+		&:not(:last-child) {
+			margin: 0 0 20px 0;
+		}
+	}
+
+	&__link {
+		font-family: "Montserrat", sans-serif;
+		font-size: 18px;
+		line-height: 22px;
+		color: #fff;
+		text-decoration: underline;
+		&_user {
+			text-decoration: none;
+		}
+	}
+
+	&__year {
+		font-family: "Niramit", sans-serif;
+		font-size: 14px;
+		color: #ffffff;
+	}
+
+	&__work-days {
+		&_mood {
+			font-family: "Niramit", sans-serif;
+			font-size: 18px;
+			color: #fff;
+			text-align: center;
+		}
+	}
+
+	&__work {
+		margin: 64px 0 0 0px;
+	}
+
+	&__work-time {
+		margin: 20px 0 0 0;
+	}
+
+	&__net {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+	}
+
+	&__email {
+		font-family: "Montserrat", sans-serif;
+		font-size: 18px;
+		line-height: 22px;
+		color: #fff;
+	}
+
+	&__email-user {
+		font-family: "Montserrat", sans-serif;
+		font-size: 18px;
+		text-transform: uppercase;
+		margin: 20px 0;
+	}
+
+	&__icons {
+		min-width: 203px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__inst {
+		& img {
+		}
+		&_teleg {
+			padding: 6.87px 5.94px;
+			border: 1px solid #ffffff;
+			box-sizing: border-box;
+			border-radius: 5px;
+		}
+	}
+
+	&__designer {
+		display: flex;
+		justify-content: end;
+		margin: 37px 0 0 0;
+		font-family: "Niramit", sans-serif;
+		font-size: 14px;
+		color: #fff;
+		& span {
+			font-family: "Niramit", sans-serif;
+			font-size: 14px;
+			letter-spacing: -0.1em;
+			margin: 0 5px 0 3px;
+		}
+	}
+}
+
+.icon-menu {
+}

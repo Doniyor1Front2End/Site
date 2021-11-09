@@ -1,0 +1,79 @@
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+._container {
+	max-width: 1170px;
+	margin: 0 auto;
+	box-sizing: content-box;
+	overflow: hidden;
+}
+
+.header {
+	background: rgba(51, 29, 29, 0.2);
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+}
+.header__content {
+}
+.header__menu {
+	display: flex;
+	min-height: 120px;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu {
+}
+.header__icon {
+}
+.header__icon a {
+	font-family: "Cunia";
+	font-weight: 700;
+	color: #fff;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.header__icon img {
+}
+.icon-menu {
+}
+.menu__body {
+	display: flex;
+	justify-content: space-between;
+	width: 589px;
+}
+.menu__list a {
+}
+.menu__link {
+	font-family: "Niramit", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgb(255, 241, 241);
+}
+.menu__link:hover {
+	content: "";
+	text-decoration: underline;
+}
+.menu__phonenumer {
+}
+.number:hover {
+	content: "";
+	text-decoration: underline;
+}
+.number {
+	font-family: "Niramit", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #fff;
+}
